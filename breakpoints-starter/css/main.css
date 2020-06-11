@@ -1,4 +1,10 @@
 
+/* -----------Mobile less than 767px wide ----------------- */
+@media (max-width: 767px){
+	body {
+		background: gray;
+	}
+}
 /* ----------- Tablets larger than 768px wide ----------- */
 @media (min-width: 768px) {
 	body {
@@ -12,8 +18,4 @@
 		background: blue;
 	}
 }
-@media (max-width: 767px){
-	body {
-		background: gray;
-	}
-}
+
